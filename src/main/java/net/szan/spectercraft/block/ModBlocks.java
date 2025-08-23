@@ -20,14 +20,15 @@ public class ModBlocks {
     public static final Block ACID = registerBlock("acid",
             new AcidBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)
                     .mapColor(MapColor.LIME)
+                    .slipperiness(0.7F)
                     .strength(0.5F)
-                    .slipperiness(1.2F)
                     .nonOpaque()));
     //===================================================================================
     public static final Block ERROR_BLOCK = registerBlock("error_block",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)
                     .sounds(BlockSoundGroup.CORAL)
                     .mapColor(MapColor.PURPLE)
+//                    .slipperiness(5F)
                     .pistonBehavior(PistonBehavior.DESTROY)
                     .dropsNothing()));
     //===================================================================================
