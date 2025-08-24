@@ -22,6 +22,9 @@ public class ModItems {
     public static final Item SPECTER_AXE = registerItem("specter_axe", new SpecterAxeItem());
     public static final Item SPECTER_PICKAXE = registerItem("specter_pickaxe", new SpecterPickaxeItem());
     public static final Item SPECTER_SHOVEL = registerItem("specter_shovel", new SpecterShovelItem());
+    public static final Item CHARGED_SOUL= registerItem("charged_soul", new Item(new FabricItemSettings()));
+    public static final Item COMPRESSED_CHARGED_SOUL = registerItem("compressed_charged_soul", new Item(new FabricItemSettings()));
+
     // ===================================================================================
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 //        entries.add(SOUL);

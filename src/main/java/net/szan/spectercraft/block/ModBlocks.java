@@ -28,13 +28,12 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)
                     .sounds(BlockSoundGroup.CORAL)
                     .mapColor(MapColor.PURPLE)
-//                    .slipperiness(5F)
                     .pistonBehavior(PistonBehavior.DESTROY)
                     .dropsNothing()));
     //===================================================================================
     public static final Block SPECTER_BLOCK = registerBlock("specter_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-
+    //===================================================================================
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(SpecterCraft.MOD_ID, name), block);

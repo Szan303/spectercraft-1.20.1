@@ -23,6 +23,8 @@ public class ModItemGroups {
                         entries.add(ModItems.SPECTER_AXE);
                         entries.add(ModItems.SPECTER_PICKAXE);
                         entries.add(ModItems.SPECTER_SHOVEL);
+                        entries.add(ModItems.CHARGED_SOUL);
+                        entries.add(ModItems.COMPRESSED_CHARGED_SOUL);
 
                         entries.add(ModBlocks.ACID);
                         entries.add(ModBlocks.ERROR_BLOCK);
