@@ -9,13 +9,19 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.szan.spectercraft.SpecterCraft;
 import net.minecraft.util.Identifier;
+import net.szan.spectercraft.item.custom.SpecterAxeItem;
+import net.szan.spectercraft.item.custom.SpecterPickaxeItem;
+import net.szan.spectercraft.item.custom.SpecterShovelItem;
 
 public class ModItems {
     // jak chcesz dodać kolejny item skopiuj tą klase pod tą wiadomością
     public static final Item SOUL = registerItem("soul", new Item(new FabricItemSettings()));
     public static final Item SPECTER_INGOT = registerItem("specter_ingot", new Item(new FabricItemSettings()));
     public static final Item ENERGY_ORB = registerItem("energy_orb", new Item(new FabricItemSettings()));
-
+    public static final Item SPECTER_STAFF = registerItem("specter_staff", new Item(new FabricItemSettings()));
+    public static final Item SPECTER_AXE = registerItem("specter_axe", new SpecterAxeItem());
+    public static final Item SPECTER_PICKAXE = registerItem("specter_pickaxe", new SpecterPickaxeItem());
+    public static final Item SPECTER_SHOVEL = registerItem("specter_shovel", new SpecterShovelItem());
     // ===================================================================================
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 //        entries.add(SOUL);

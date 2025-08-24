@@ -1,11 +1,17 @@
 {
   "item.spectercraft.soul": "Soul",
-  "item.spectercraft.specter_ingot": "Specter ingot",
-  "item.spectercraft.energy_orb": "Energy orb",
+  "item.spectercraft.specter_ingot": "Specter Ingot",
+  "item.spectercraft.energy_orb": "Energy Orb",
+  "item.spectercraft.specter_staff": "Specter Staff",
+  "item.spectercraft.specter_axe": "Specter Axe",
+  "item.spectercraft.specter_pickaxe": "Specter Pickaxe",
+  "item.spectercraft.specter_shovel": "Specter Shovel",
 
-  "block.spectercraft.acid": "Acid block",
-  "block.spectercraft.error_block": "Error block",
-  "block.spectercraft.specter_block": "Specter block",
+  "block.spectercraft.acid": "Acid Block",
+  "block.spectercraft.error_block": "Error Block",
+  "block.spectercraft.specter_block": "Specter Block",
 
-  "itemgroup.specter": "SpecterCraft Group"
+  "itemgroup.specter": "SpecterCraft Group",
+
+  "death.attack.acid": "%1$s dissolved in acid"
 }

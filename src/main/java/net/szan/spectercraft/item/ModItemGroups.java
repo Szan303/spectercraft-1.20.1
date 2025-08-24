@@ -19,6 +19,10 @@ public class ModItemGroups {
                         entries.add(ModItems.SOUL);
                         entries.add(ModItems.SPECTER_INGOT);
                         entries.add(ModItems.ENERGY_ORB);
+                        entries.add(ModItems.SPECTER_STAFF);
+                        entries.add(ModItems.SPECTER_AXE);
+                        entries.add(ModItems.SPECTER_PICKAXE);
+                        entries.add(ModItems.SPECTER_SHOVEL);
 
                         entries.add(ModBlocks.ACID);
                         entries.add(ModBlocks.ERROR_BLOCK);
