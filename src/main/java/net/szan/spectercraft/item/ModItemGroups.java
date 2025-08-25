@@ -29,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ACID);
                         entries.add(ModBlocks.ERROR_BLOCK);
                         entries.add(ModBlocks.SPECTER_BLOCK);
+
+                        entries.add(ModItems.TOMATO);
                     }).build());
 
     public static void registerItemGroups() {

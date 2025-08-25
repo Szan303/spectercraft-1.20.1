@@ -16,7 +16,7 @@ import net.szan.spectercraft.SpecterCraft;
 import net.szan.spectercraft.block.custom.AcidBlock;
 
 public class ModBlocks {
-    //=========================|ACID|====================================================
+    //===================================================================================
     public static final Block ACID = registerBlock("acid",
             new AcidBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)
                     .mapColor(MapColor.LIME)

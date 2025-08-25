@@ -24,7 +24,7 @@ public class ModItems {
     public static final Item SPECTER_SHOVEL = registerItem("specter_shovel", new SpecterShovelItem());
     public static final Item CHARGED_SOUL= registerItem("charged_soul", new Item(new FabricItemSettings()));
     public static final Item COMPRESSED_CHARGED_SOUL = registerItem("compressed_charged_soul", new Item(new FabricItemSettings()));
-
+    public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     // ===================================================================================
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 //        entries.add(SOUL);

@@ -30,7 +30,6 @@ public class AcidBlock extends Block {
         super.onEntityCollision(state, world, pos, entity);
 
         if (!world.isClient && entity instanceof LivingEntity living) {
-//            living.damage(world.getDamageSources().magic(), 2.0F);
             DamageSource damageSource = new DamageSource(
                     world.getRegistryManager()
                             .get(RegistryKeys.DAMAGE_TYPE)
