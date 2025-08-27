@@ -25,6 +25,12 @@ public class ModItemGroups {
                         entries.add(ModItems.SPECTER_SHOVEL);
                         entries.add(ModItems.CHARGED_SOUL);
                         entries.add(ModItems.COMPRESSED_CHARGED_SOUL);
+                        entries.add(ModItems.ECTOPLASM);
+                        entries.add(ModItems.ECTO_AXE);
+                        entries.add(ModItems.ECTO_HOE);
+                        entries.add(ModItems.ECTO_PICKAXE);
+                        entries.add(ModItems.ECTO_SHOVEL);
+                        entries.add(ModItems.COSMIC_OBBLITERATOR);
 
                         entries.add(ModBlocks.ACID);
                         entries.add(ModBlocks.ERROR_BLOCK);

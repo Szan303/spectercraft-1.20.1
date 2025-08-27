@@ -8,6 +8,12 @@
   "item.spectercraft.specter_shovel": "Specter Shovel",
   "item.spectercraft.charged_soul": "Charged Soul",
   "item.spectercraft.compressed_charged_soul": "Compressed Charged Soul",
+  "item.spectercraft.ectoplasm": "Ectoplasm",
+  "item.spectercraft.ecto_axe": "Ecto Axe",
+  "item.spectercraft.ecto_pickaxe": "Ecto Pickaxe",
+  "item.spectercraft.ecto_hoe": "Ecto Hoe",
+  "item.spectercraft.ecto_shovel": "Ecto Shovel",
+  "item.spectercraft.cosmic_obbliterator": "Cosmic Obbliterator",
 
   "block.spectercraft.acid": "Acid Block",
   "block.spectercraft.error_block": "Error Block",

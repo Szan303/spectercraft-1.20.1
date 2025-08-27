@@ -9,9 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.szan.spectercraft.SpecterCraft;
 import net.minecraft.util.Identifier;
-import net.szan.spectercraft.item.custom.SpecterAxeItem;
-import net.szan.spectercraft.item.custom.SpecterPickaxeItem;
-import net.szan.spectercraft.item.custom.SpecterShovelItem;
+import net.szan.spectercraft.item.custom.*;
 
 public class ModItems {
     // jak chcesz dodać kolejny item skopiuj tą klase pod tą wiadomością
@@ -25,6 +23,12 @@ public class ModItems {
     public static final Item CHARGED_SOUL= registerItem("charged_soul", new Item(new FabricItemSettings()));
     public static final Item COMPRESSED_CHARGED_SOUL = registerItem("compressed_charged_soul", new Item(new FabricItemSettings()));
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item ECTOPLASM = registerItem("ectoplasm", new Item(new FabricItemSettings()));
+    public static final Item COSMIC_OBBLITERATOR = registerItem("cosmic_obbliterator", new CosmicObbliteratorItem());
+    public static final Item ECTO_AXE = registerItem("ecto_axe", new EctoAxeItem());
+    public static final Item ECTO_PICKAXE = registerItem("ecto_pickaxe", new EctoPickaxeItem());
+    public static final Item ECTO_SHOVEL = registerItem("ecto_shovel", new EctoShovelItem());
+    public static final Item ECTO_HOE = registerItem("ecto_hoe", new EctoHoeItem());
     // ===================================================================================
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 //        entries.add(SOUL);
