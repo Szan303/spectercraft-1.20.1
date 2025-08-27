@@ -20,4 +20,7 @@ public class SpecterCraft implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello SpecterCraft!");
 	}
+    public void nigger(){
+        System.out.println("nagger");
+    }
 }
