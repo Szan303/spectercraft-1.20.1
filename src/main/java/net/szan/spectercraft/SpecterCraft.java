@@ -22,5 +22,6 @@ public class SpecterCraft implements ModInitializer {
 	}
     public void nigger(){
         System.out.println("nagger");
+        System.out.println("nagger");
     }
 }
