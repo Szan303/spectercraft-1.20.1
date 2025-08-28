@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "spectercraft:item/placeholder"
+    "layer0": "spectercraft:item/staff_handle"
   }
 }

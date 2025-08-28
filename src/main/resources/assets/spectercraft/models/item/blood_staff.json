@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "spectercraft:item/specter_staff"
+    "layer0": "spectercraft:item/blood_staff"
   }
 }

@@ -17,6 +17,7 @@
   "item.spectercraft.orb": "Orb",
   "item.spectercraft.staff_handle": "Staff Handle",
   "item.spectercraft.energy_staff": "Energy Staff",
+  "item.spectercraft.blood_staff": "Blood Staff",
 
   "block.spectercraft.acid": "Acid Block",
   "block.spectercraft.error_block": "Error Block",
@@ -27,4 +28,5 @@
   "itemgroup.specter": "SpecterCraft Group",
 
   "death.attack.acid": "%1$s dissolved in acid"
+
 }
