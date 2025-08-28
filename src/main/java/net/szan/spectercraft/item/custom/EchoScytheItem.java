@@ -1,12 +1,11 @@
 package net.szan.spectercraft.item.custom;
 
-import net.minecraft.item.AxeItem;
 import net.minecraft.item.SwordItem;
 import net.szan.spectercraft.toolmaterial.ModToolMaterials;
 
-public class CosmicObbliteratorItem extends SwordItem {
+public class EchoScytheItem extends SwordItem {
 
-    public CosmicObbliteratorItem() {
+    public EchoScytheItem() {
         super(
                 ModToolMaterials.ECTOPLASMA, // nasz custom material
                 5,                        // attackDamage
