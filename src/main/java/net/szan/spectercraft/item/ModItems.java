@@ -20,8 +20,7 @@ public class ModItems {
     public static final Item SPECTER_AXE = registerItem("specter_axe", new SpecterAxeItem());
     public static final Item SPECTER_PICKAXE = registerItem("specter_pickaxe", new SpecterPickaxeItem());
     public static final Item SPECTER_SHOVEL = registerItem("specter_shovel", new SpecterShovelItem());
-    public static final Item CHARGED_SOUL= registerItem("charged_soul", new Item(new FabricItemSettings()));
-    public static final Item COMPRESSED_CHARGED_SOUL = registerItem("compressed_charged_soul", new Item(new FabricItemSettings()));
+    public static final Item COMPRESSED_SOUL = registerItem("compressed_soul", new Item(new FabricItemSettings()));
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item ECTOPLASM = registerItem("ectoplasm", new Item(new FabricItemSettings()));
     public static final Item ECHO_SCYTHE = registerItem("echo_scythe", new EchoScytheItem());
@@ -29,6 +28,11 @@ public class ModItems {
     public static final Item ECTO_PICKAXE = registerItem("ecto_pickaxe", new EctoPickaxeItem());
     public static final Item ECTO_SHOVEL = registerItem("ecto_shovel", new EctoShovelItem());
     public static final Item ECTO_HOE = registerItem("ecto_hoe", new EctoHoeItem());
+    public static final Item ENERGY_STAFF = registerItem("energy_staff", new Item(new FabricItemSettings()));
+    public static final Item ORB = registerItem("orb", new Item(new FabricItemSettings()));
+    public static final Item STAFF_HANDLE = registerItem("staff_handle", new Item(new FabricItemSettings()));
+
+
     // ===================================================================================
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 //        entries.add(SOUL);

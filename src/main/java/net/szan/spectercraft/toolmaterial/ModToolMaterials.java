@@ -38,33 +38,21 @@ public class ModToolMaterials {
     };
     public static final ToolMaterial ECTOPLASMA = new ToolMaterial() {
         @Override
-        public int getDurability() {
-            return 3000;
-        }
+        public int getDurability() { return 300; }
 
         @Override
-        public float getMiningSpeedMultiplier() {
-            return 0;
-        }
+        public float getMiningSpeedMultiplier() { return 10.0F; }
 
         @Override
-        public float getAttackDamage() {
-            return 0;
-        }
+        public float getAttackDamage() { return 3.0F; }
 
         @Override
-        public int getMiningLevel() {
-            return 0;
-        }
+        public int getMiningLevel() { return 4; }
 
         @Override
-        public int getEnchantability() {
-            return 0;
-        }
+        public int getEnchantability() { return 14; }
 
         @Override
-        public Ingredient getRepairIngredient() {
-            return null;
-        }
+        public Ingredient getRepairIngredient() { return Ingredient.ofItems(ModItems.ECTOPLASM); }
     };
 }

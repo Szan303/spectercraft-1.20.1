@@ -23,18 +23,22 @@ public class ModItemGroups {
                         entries.add(ModItems.SPECTER_AXE);
                         entries.add(ModItems.SPECTER_PICKAXE);
                         entries.add(ModItems.SPECTER_SHOVEL);
-                        entries.add(ModItems.CHARGED_SOUL);
-                        entries.add(ModItems.COMPRESSED_CHARGED_SOUL);
+                        entries.add(ModItems.COMPRESSED_SOUL);
                         entries.add(ModItems.ECTOPLASM);
                         entries.add(ModItems.ECTO_AXE);
                         entries.add(ModItems.ECTO_HOE);
                         entries.add(ModItems.ECTO_PICKAXE);
                         entries.add(ModItems.ECTO_SHOVEL);
-                        entries.add(ModItems.COSMIC_OBBLITERATOR);
+                        entries.add(ModItems.ECHO_SCYTHE);
+                        entries.add(ModItems.STAFF_HANDLE);
+                        entries.add(ModItems.ENERGY_STAFF);
+                        entries.add(ModItems.ORB);
 
                         entries.add(ModBlocks.ACID);
                         entries.add(ModBlocks.ERROR_BLOCK);
                         entries.add(ModBlocks.SPECTER_BLOCK);
+                        entries.add(ModBlocks.SOUL_BRICKS);
+                        entries.add(ModBlocks.CHISELED_SOUL_BRICKS);
 
                         entries.add(ModItems.TOMATO);
                     }).build());

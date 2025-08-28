@@ -34,6 +34,12 @@ public class ModBlocks {
     public static final Block SPECTER_BLOCK = registerBlock("specter_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     //===================================================================================
+    public static final Block SOUL_BRICKS = registerBlock("soul_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+    //===================================================================================
+    public static final Block CHISELED_SOUL_BRICKS = registerBlock("chiseled_soul_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.CHISELED_STONE_BRICKS)));
+    //===================================================================================
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(SpecterCraft.MOD_ID, name), block);
