@@ -21,10 +21,4 @@ public class SpecterShovelItem extends ShovelItem {
                 new Settings()        // minimalne ustawienia, group można pominąć
         );
     }
-
-    @Override
-    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.spectercraft.specter_shovel"));
-        super.appendTooltip(stack, world, tooltip, context);
-    }
 }

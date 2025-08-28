@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "spectercraft:block/specter_block"
+      "model": "spectercraft:block/soul_bricks"
     }
   }
 }
