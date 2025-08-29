@@ -27,6 +27,8 @@ public class ModItems {
     public static final Item STAFF_HANDLE = registerItem("staff_handle", new Item(new FabricItemSettings()));
     public static final Item SPECTER_PROJECTILE_ITEM = registerItem("specter_projectile_item", new Item(new FabricItemSettings().maxCount(1)));
     public static final Item BLOOD_PROJECTILE_ITEM = registerItem("blood_projectile_item", new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item BLOOD_ORB = registerItem("blood_orb", new Item(new FabricItemSettings()));
+    public static final Item SPECTER_SCYTHE = registerItem("specter_scythe", new SpecterScytheItem());
     // ===================================================================================
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 //        entries.add(SOUL);

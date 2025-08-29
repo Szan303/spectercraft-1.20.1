@@ -28,6 +28,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ENERGY_STAFF);
                         entries.add(ModItems.ORB);
                         entries.add(ModItems.BLOOD_STAFF);
+                        entries.add(ModItems.BLOOD_ORB);
+                        entries.add(ModItems.SPECTER_SCYTHE);
 
                         entries.add(ModBlocks.ACID);
                         entries.add(ModBlocks.ERROR_BLOCK);

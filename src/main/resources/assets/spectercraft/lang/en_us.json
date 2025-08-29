@@ -18,6 +18,7 @@
   "item.spectercraft.staff_handle": "Staff Handle",
   "item.spectercraft.energy_staff": "Energy Staff",
   "item.spectercraft.blood_staff": "Blood Staff",
+  "item.spectercraft.specter_scythe": "Specter Scythe",
 
   "block.spectercraft.acid": "Acid Block",
   "block.spectercraft.error_block": "Error Block",
@@ -27,6 +28,9 @@
 
   "itemgroup.specter": "SpecterCraft Group",
 
-  "death.attack.acid": "%1$s dissolved in acid"
+  "death.attack.acid": "%1$s dissolved in acid",
+  "death.attack.blood_magic": "The %1$s died as a result of blood magic",
+  "death.attack.specter_magic": "The %1$s died as a result of spectral magic"
+
 
 }

@@ -1,15 +1,7 @@
 package net.szan.spectercraft.item.custom;
 
-import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ShovelItem;
-import net.minecraft.text.Text;
-import net.minecraft.world.World;
 import net.szan.spectercraft.toolmaterial.ModToolMaterials;
-import org.jetbrains.annotations.Nullable;
-
-import java.util.List;
 
 public class SpecterShovelItem extends ShovelItem {
 

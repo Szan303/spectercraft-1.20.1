@@ -18,7 +18,7 @@ import java.util.List;
 
 public class SpecterStaffItem extends Item {
 
-    public static final int MAX_DURABILITY = 8;
+    public static final int MAX_DURABILITY = 10;
 
     public SpecterStaffItem() {
         super(new Item.Settings().maxCount(1));

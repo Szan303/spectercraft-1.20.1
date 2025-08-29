@@ -2,13 +2,18 @@ package net.szan.spectercraft.entity.custom;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
 import net.minecraft.world.World;
+import net.szan.spectercraft.damagetypes.ModDamageTypes;
 import net.szan.spectercraft.entity.ModEntities;
 import net.szan.spectercraft.item.ModItems;
 
@@ -48,10 +53,26 @@ public class BloodProjectileEntity extends ThrownItemEntity {
 
             float totalDamageDealt = 0.0F; // suma obrażeń dla leczenia
 
+//            for (LivingEntity entity : entities) {
+//                entity.damage(this.getDamageSources().magic(), BLOOD_DAMAGE);
+//                totalDamageDealt += BLOOD_DAMAGE;
+//            }
+
             for (LivingEntity entity : entities) {
-                entity.damage(this.getDamageSources().magic(), BLOOD_DAMAGE);
+                // Pobranie customowego DamageType z rejestru
+                DamageSource customSrc = new DamageSource(
+                        this.getWorld()
+                                .getRegistryManager()
+                                .get(RegistryKeys.DAMAGE_TYPE)
+                                .entryOf(ModDamageTypes.BLOOD_MAGIC),
+                        this.getOwner()
+                );
+
+                // Zadajemy obrażenia z nowego źródła
+                entity.damage(customSrc, BLOOD_DAMAGE);
                 totalDamageDealt += BLOOD_DAMAGE;
             }
+
 
             // Leczenie właściciela o 1/3 sumy obrażeń
             if (totalDamageDealt > 0 && this.getOwner() instanceof PlayerEntity player) {
