@@ -12,7 +12,6 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 import net.szan.spectercraft.entity.custom.BloodProjectileEntity;
-import net.szan.spectercraft.entity.custom.SpecterProjectileEntity;
 import net.szan.spectercraft.item.ModItems;
 
 import java.util.List;
