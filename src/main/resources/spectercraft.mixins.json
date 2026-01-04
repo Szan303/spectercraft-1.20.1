@@ -3,7 +3,14 @@
 	"package": "net.szan.spectercraft.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"BlockInventorySlotsMixin",
+		"DisableAutoPickupMixin"
+	],
+	"client": [
+		"HotbarMixin",
+		"RemoveInventorySlotsMixin",
+		"ManualPickupMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
